@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Layout Lessons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./nestedLayout.css">
+    <style>
+        html,p{
+            font-family: Roboto;
+        }
+        .user-name{
+        font-family: Roboto,Arial;
+        font-weight: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="profile-photos">
+            <img src="./images/6.jpg" alt="profile photo" class="profile-photo">
+        </div>
+        <div class="user-info">
+            <p class="user-name">oliver</p>
+            <p class="type-user">the cat</p>
+            <p class="status">Popular</p>
+        </div>
+        <div class="btn-div">
+            <button class="btn-follow">Follow</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="layout">
+        <div class="main-div">
+            <div class="profile-photos">
+                <img src="./images/oliver.jfif" alt="profile photo" class="profile-photo">
+            </div>
+            <div class="user-info">
+                <p class="user-name">oliver</p>
+                <p class="type-user">the cat</p>
+                <p class="status">Popular</p>
+            </div>
+            <div class="btn-div">
+                <button class="btn-follow">Follow</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div class="profile-photos">
+                <img src="./images/mimi.jfif" alt="profile photo" class="profile-photo">
+            </div>
+            <div class="user-info">
+                <p class="user-name">Mimi</p>
+                <p class="type-user">Sleepy cat</p>
+                <p class="status">Popular</p>
+            </div>
+            <div class="btn-div">
+                <button class="btn-follow">Follow</button>
+            </div>
+        </div>
+        <div class="main-div">
+            <div class="profile-photos">
+                <img src="./images/pulldog.jfif" alt="profile photo" class="profile-photo">
+            </div>
+            <div class="user-info">
+                <p class="user-name">Rex</p>
+                <p class="type-user">Happy Bulldog</p>
+                <p class="status">Popular</p>
+            </div>
+            <div class="btn-div">
+                <button class="btn-follow">Follow</button>
+            </div>
+        </div>  
+    </div>
+
+    <hr>
+    <div>
+        <div class="video-info">
+            <div class="video-name">
+                <img src="./images/self-taught.jpg" alt="Self Taught" class="video-photo">
+            </div>
+            <div class="video-data">
+                <p class="video-title">
+                    How to complete against CS degrees(as a self-taught dev)
+                </p>
+                <p class="channel-name">
+                    SuperSimpleDev
+                </p>
+                <p class="view-time">
+                    1.5K views &#183; 4 months ago
+                </p>
+            </div>
+        </div>
+        <div class="video-info">
+            <div class="video-name">
+                <img src="./images/charts.jpg" alt="to learn first 2022 (with charts)" class="video-photo">
+            </div>
+            <div class="video-data">
+                <p class="video-title">
+                    Which programming language to learn first 2022(with charts)
+                </p>
+                <p class="channel-name">
+                    SuperSimpleDev
+                </p>
+                <p class="view-time">
+                    5.7K views &#183; 11 months ago
+                </p>
+            </div>
+        </div>
+        <div class="video-info">
+            <div class="video-name">
+                <img src="./images/frontend.jpg" alt="Frontend web developement" class="video-photo">
+            </div>
+            <div class="video-data">
+                <p class="video-title">
+                   Frontend web developement - a complete overview (2021)
+                </p>
+                <p class="channel-name">
+                    SuperSimpleDev
+                </p>
+                <p class="view-time">
+                    1K views &#183; 4 months ago
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+        <div>
+            <div class="verti-block">
+                <div>
+                    <img src="./images/oliver.jfif" alt="Oliver profile" class="friend-request-profile">
+                </div>
+                <div>
+                    <p class="user-name">Oliver</p>
+                    <div class="mutual">
+                        <img src="./images/1.jpg" alt="mutual friends" class="mutual-friends-profile">
+                        <p class="mutual-friends">2 mutual friends</p>
+                    </div>
+                    <button class="add-friend-btn">Add Friend</button>
+                </div>
+            </div>
+            <div class="verti-block">
+                <div>
+                    <img src="./images/mimi.jfif" alt="Mimi profile" class="friend-request-profile">
+                </div>
+                <div class="user-profile">
+                    <p class="user-name">Mimi</p>
+                    <div class="mutual">
+                        <img src="./images/1.jpg" alt="mutual friends" class="mutual-friends-profile">
+                        <p class="mutual-friends">3 mutual friends</p>
+                    </div>
+                    <button class="add-friend-btn">Add Friend</button>
+                </div>
+            </div>
+            <div class="verti-block">
+                <div>
+                    <img src="./images/rex.jfif" alt="Rex profile" class="friend-request-profile">
+                </div>
+                <div>
+                    <p class="user-name">Rex</p>
+                    <div class="mutual">
+                        <img src="./images/1.jpg" alt="mutual friends" class="mutual-friends-profile">
+                        <p class="mutual-friends">4 mutual friends</p>
+                    </div>
+                    <button class="add-friend-btn">Add Friend</button>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

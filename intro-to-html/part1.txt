@@ -1,0 +1,208 @@
+Tags
+
+Non visible on screen for users of WebSites. 
+The tags explain to your computer what it has to show on the screen.
+<> like -> <tag>
+
+-> text nature=> this is the title, an image, a paragraph,.... of our page
+2types of tags:
+. Pairs tags    
+        Need and open tag and ending tag: <title> This is a tilte</title>
+
+        Indicate to the computer that everything which is not between these 2 tags is not a title
+
+        -> This is not a title <title> This is a title </title> This is not a title
+.Orphan tags
+        Used for insertion of elements at the precise place 
+        (for example a picture - <picture/>)
+        There is no need to open a tag and placing an end tag, we just want to say to the computer "add a picture here"
+
+        The/is optional but it's recommended to had since it as a good practice between developers.
+
+
+Attributes
+-----------
+Use in order to add options and provide more informations about the tag.
+Always placed after the nae of the open tag. Most of the time has a value.
+
+    <tag attribute="value">
+
+Example: 
+    <quote writer="Neil Armstrong" date="27/1/1967">
+    That's one small step for man, one giant leap for mankind
+    </quote>
+
+
+Basic Structure of HTML
+-----------------------
+
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+    <head>
+        <meta charset="utf-8">
+        <title> </title>
+    </head>
+    <body>
+
+
+    </body>
+</html>
+
+The DOCTYPE is retained in HTML5 as a mostly, useless, but required header
+only to trigger "standards mode" in common browers.
+
+<html> tag is the first tag that we have to open and the last one to close.
+<head> for develop, user can't see this data. head tag use only for information 
+<title> always required. should identify the contents of the document in a global context, 
+        and may be used in a history lists and as a label for window displaying the document. 
+        The TITLE element must occur within the head of the document, and may not contain anchors, 
+        paragraph tags, or highlighting. There is only one TITLE tag.
+
+        The length of the title is unlimited, however, long title may be truncated in some
+        applicatoins, To minimize this possibility, keep titles to fewer than 64 characters.
+
+
+        <!DOCTYPE html>
+        <html lang='en' dir='ltr'>
+            <head>
+                <meta charset="utf-8">
+                <title> The title goes here </title>
+            </head>
+            <body>
+
+
+            </body>
+        </html>
+
+<meta> =>   Meta information can be extracted by servers/clients for use in identifying, 
+            indexing and cataloging specialized document meta-information.
+
+            The META element attribute:
+
+            charset
+            -------
+                You need to specify the encode of your page with: 
+                <meta charset="utf-8"/> -- indicate the way your file gonna be saved.
+
+                Example with it:
+
+                <!DOCTYPE html>
+                <html lang='en' dir='ltr'>
+                    <head>
+                        <meta charset="utf-8">
+                        <title> </title>
+                    </head>
+                    <body>
+                        iHola!
+                        Bonjour!
+                        Enchantee de vous connaitre!
+                        Nice to meet you!
+
+                    </body>
+                </html>
+
+
+HTML tags
+==========
+<body> ... </body>
+This is where you will write all of your HTML code. The document body is composed
+from zero or more of the following elements:
+
+        => DIV --- used for hierarchical containers and static banners.
+        => Headings ( H1 to H6) --- a set of headers of varying levels of importance
+        => Block elements --- paragraph, lists, forms, tables, figures and other elements
+        => Horizontal rules, and the ADDRESS element
+        => Text and character level markup including emphasis, images, math, hypertext links
+            and miscellaneous elements.
+
+    <p> ... </p>    Used to create paragraphs
+    <br/>   As you saw with <p> if you just want go to the next line without the creation of
+            a new paragraph, then you have to use <br/> . 
+            <br/> has to be in a paragraph section.
+
+            If you want to do multiple jump to the line then is better to use CSS. 
+
+
+HTML tags part2
+---------------
+<h1> .... to <h6>
+Used to highlight part as a title/header in your document. Each of them has a particular style.
+
+    <body>
+        <h1> Title h1 </h1>
+        <h2> Title h2 </h2>
+        <h3> Title h3 </h3>
+        <h4> Title h4 </h4>
+        <h5> Title h5 </h5>
+        <h6> Title h6 </h6>
+    </body>
+
+
+<strong>, <em> and <mark>
+
+Used to indicate important words/sentences in your page.
+
+<body>
+    <p> Hello and Welcome on <strong> the coolest website on earth</strong>
+
+    <em> I know you'll enjoy it</em>
+    as you can see we're working on it so it will be <mark> better after</mark> 
+    so come back later.
+    </p>
+
+
+</body>
+
+lists
+======
+Used to order your website.
+2 types of lists:
+
+Non-orered <ul>
+    .Item1
+    .Item2
+    .Item3
+
+
+    <body>
+        <ul>
+            <li> item1</li>
+            <li> item2 </li>
+            <li> item3 </li>
+        </ul>
+    </body>
+
+Ordered <ol>
+    1. Item1
+    2. Item2
+    3. Item3
+
+    <body>
+        <ol>
+            <li> item1</li>
+            <li> item2 </li>
+            <li> item3 </li>
+        </ol>
+    </body>
+
+Images formats
+==============
+
+Jpeg (Joint Photographic Expert Group .jpg or .jpeg)
+
+    Used to lightening the weight of your image using algorithms based on the human sight.
+    Very useful when you want to add pictures (users can't see the difference).
+
+Png (Portable Network Graphics)
+
+    No deterioration of your image but it heavier.
+
+2 assets : you can use transparency and no deterioration of the quality of your image.
+2 encodings : 
+    . PNG 8 bits : 256 colors;
+    . PNG 24 bits : 16 millions de colors (as much as JPEG)
+
+Naming images : 
+    lowercase, no accentuation and no spaces (use underscore instead)
+
+

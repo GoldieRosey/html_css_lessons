@@ -1,0 +1,148 @@
+html{
+    margin-bottom: 1000px;
+}
+.container-12a{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-12b{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.container-12c{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.container-12d{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border: 1px solid gray;
+}
+
+.container-12e{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(190, 189, 189);
+    border-radius: 3px;
+    font-size: 26px;
+    font-family: Roboto,Arial;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.btn{
+    font-size: 26px;
+    background-color: rgb(40, 40, 238);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.container-12g{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto,Arial;
+    margin-top: 20px;
+}
+
+.profile-detail-12g{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-12g{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.user-name-detail{
+    width: 500px;
+}
+
+.user-name{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.status{
+    color: rgb(160, 158, 158);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    
+}
+
+.btn-12g{
+    background-color: rgb(40, 142, 238);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.container-12f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(88, 42, 148);
+    height: 70px;
+    font-family: Roboto,Arial ;
+    color: white;
+    
+}
+
+.home-12f{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.search-box-12f{
+    flex: 1;
+    height: 40px;
+    width: 1000px;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    padding-left: 25px;
+    margin-left: 50px;
+}
+
+.btn-download{
+    background-color: rgb(88, 42, 148);
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    
+}

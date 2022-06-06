@@ -1,0 +1,189 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.video-title{    
+    font-weight: bold;
+    font-size: 17px;
+    width: 300px;
+    line-height:24px ;
+    margin-bottom: 5px;
+}
+
+.video-stats{
+    
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-bottom:20px;
+}
+
+.video-author{
+    
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-bottom: 20px;
+}
+
+.video-description{   
+    font-size: 14px;
+    color: rgb(96,96,96);
+    width: 280px;
+    line-height: 20px;
+    padding-bottom: 100px;
+}
+
+.apple-text{
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227,65,64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.shop-link{
+    cursor: pointer;
+}
+
+.shop-link:hover{
+    text-decoration: underline;
+}
+
+.a5{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.biggest{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.tuesday{
+    font-size: 25px;
+    color: rgb(231, 13, 97);
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.course{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.beginner{
+    font-family: Verdana;
+    font-size: 22px;
+    color: rgb(158, 127, 127);
+    margin-bottom: 20px;
+}
+
+.developer{
+    font-family: Verdana;
+    font-size: 22px;
+    width: 400px;
+    margin-bottom: 22px;
+}
+
+.get-btn{
+    background-color: rgb(3, 124, 3);
+    font-family: Verdana;
+    font-size: 18px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.business{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.apple-work{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.learn-more{
+    font-size: 24px;
+    color: rgb(96,96,96);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.e5{
+    text-align: center;
+}
+.e5 p{
+    margin-bottom: 10px;
+}
+.new{
+    color: rgb(151, 43, 43);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.macbook{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.pros{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.from{
+    font-size: 20px;
+}
+
+.buy-btn{
+    font-size: 18px;
+    background-color: rgb(31, 101, 230);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.rate{
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+.usd{
+    vertical-align: sub;
+    font-size: medium;
+}
+
+.today{
+    font-size: 20px;
+    color: rgb(15, 73, 15);
+    margin-bottom: 6px;
+}
+.hours{
+    font-size: 20px;
+}
+.perfifteen{
+    color: rgb(184, 12, 12);
+}

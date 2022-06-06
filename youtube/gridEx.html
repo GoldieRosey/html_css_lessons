@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Grid Exercises</title>
+    <link rel="stylesheet" href="./grid.css">
+    
+</head>
+<body>
+    <div class="grid-width-px">
+        <div class="blue">200px</div>
+        <div class="pink">75px</div>
+    </div>
+    <br>
+    <div style="
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    
+    ">
+        <div class="blue">col1</div>
+        <div class="pink">col2</div>
+        <div class="blue">col3</div>
+    </div>
+    <br>
+
+    <div style="
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    ">
+
+        <div class="pink">col1</div>
+        <div class="pink">col2</div>
+        <div class="pink">col3</div>
+        <div class="pink">col4</div>
+        <div class="pink">col1</div>
+        <div class="pink">col2</div>
+        <div class="pink">col3</div>
+        <div class="pink">col4</div>
+    </div>
+
+    <br>
+
+    <div class="profile-grid">
+        <div class="profiles">
+            <img src="./images/oliver.jfif" alt="Oliver" class="profile-photo">
+            <p class="user-name">Oliver</p>
+            <div class="mutual-grid">
+                <div>
+                    <img src="./images/1.jpg" alt="mutual-profiles" class="mutual-profiles">
+                </div>
+                <div>
+                    <p class="mutual-friends">2 mutual friends</p>
+                </div>
+            </div>
+            <button class="add-friend-btn">Add Friend</button>
+        </div>
+        <div class="profiles">
+            <img src="./images/mimi.jfif" alt="Mimi" class="profile-photo">
+            <p class="user-name">Mimi</p>
+            <div class="mutual-grid">
+                <div>
+                    <img src="./images/1.jpg" alt="mutual-profiles" class="mutual-profiles">
+                </div>
+                <div>
+                    <p class="mutual-friends">3 mutual friends</p>
+                </div>
+            </div>
+            <button class="add-friend-btn">Add Friend</button>
+        </div>
+        <div class="profiles">
+            <img src="./images/rex.jfif" alt="Rex" class="profile-photo">
+            <p class="user-name">Rex</p>
+            <div class="mutual-grid">
+                <div>
+                    <img src="./images/1.jpg" alt="mutual-profiles" class="mutual-profiles">
+                </div>
+                <div>
+                    <p class="mutual-friends">4 mutual friends</p>
+                </div>
+            </div>
+            <button class="add-friend-btn">Add Friend</button>
+        </div>
+    </div>
+
+</body>
+</html>

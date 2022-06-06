@@ -1,0 +1,168 @@
+.name{
+    font-size: 20px;   
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid rgb(182, 181, 181);
+    border-radius: 2px;
+    transition: box-shadow 0.15s;
+}
+.name:hover{
+    box-shadow: 2px 2px 5px rgb(182,181,181);
+}
+.email{
+    font-size: 20px;
+    display: block;
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid rgb(182, 181, 181);
+    border-radius: 2px;
+    transition: box-shadow 0.15s;
+}
+
+.email:hover{
+    box-shadow: 2px 2px 5px rgb(182,181,181);
+}
+
+.survey{
+    font-weight: bold;
+    font-size: 22px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yes{
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid rgb(182, 181, 181);
+    border-radius: 3px;
+    background-color: rgb(241, 238, 238);
+    padding: 5px 10px;
+    margin-right: 3px;
+}
+
+.no{
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid rgb(182, 181, 181);
+    border-radius: 3px;
+    background-color: rgb(241, 238, 238);
+    padding: 5px 10px;
+}
+
+.google-search{
+    font-size: 18px;
+    width: 750px;
+    height: 50px;
+    border: 1px solid rgb(207, 206, 206);
+    border-radius: 40px;   
+    margin-top: 10px;
+    padding-left: 10px;
+    transition: box-shadow 0.15s;
+}
+
+.google-search:hover{
+    box-shadow: 5px 5px 8px rgb(241, 239, 239);
+}
+
+.logo-G{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 180px;
+   
+}
+
+div{
+    margin: 20px;
+    padding: 10px;
+}
+.first-name{
+    font-size: 20px;
+    padding: 12px ;
+    border:1px solid rgb(182, 181, 181);
+    border-radius: 8px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.last-name{
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.email1{
+    display: block;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 290px;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sign-up-btn{
+    background-color: rgb(38, 85, 238);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding:15px 232px;
+}
+
+.request{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pickup{
+    font-size: 16px;
+    padding-left: 18px;
+    padding-right: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: rgb(243, 242, 242);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.destination{
+    font-size: 16px;
+    padding-left: 18px;
+    padding-right: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: rgb(243, 242, 242);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.request-now{
+    border: none;
+    font-size: 18px;
+    background-color: rgb(0,0, 0);
+    color: white;
+    padding: 20px 40px;
+    margin-right: 25px;
+}
+
+.schedule{
+    border: none;
+    font-size: 18px;
+    background-color: rgb(243, 242, 242);
+    padding: 20px 40px;
+    font-weight: bold;
+}
